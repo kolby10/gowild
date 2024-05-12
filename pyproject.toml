@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gwsearch"
+license = "CC BY-NC-ND 4.0 Deed"
+homepage = "https://github.com/fly-metothemoon/GWsearch"
+repository = "https://github.com/fly-metothemoon/GWsearch"
+version = "0.1.0"
+description = ""
+authors = ["Hannah Burns"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+browsercookie = "^0.7.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

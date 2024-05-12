@@ -10,19 +10,15 @@ Most recent update allows for roundtrips! It will automatically search for next-
 Also should run faster by checking dates first and improved use for rate limiting.
 
 ## Prerequisites
-Before running `gowild_scraper.py`, make sure you have the following installed on your system:
 
-- `Python 3.x`
-If you don't have Python installed, follow the instructions [here](#downloading-python) to download it.
-- `requests` library
-- `beautifulsoup4` library
-- `browsercookie` library
-
-You can install the required libraries using `pip` or `pip3`:
-
+If you already have Python 3 and Pip:
+```bash
+git clone https://github.com/fly-metothemoon/GWsearch.git
+cd GWsearch/
+pip install .
+python gowild_scraper.py --help
 ```
-pip install requests beautifulsoup4 browsercookie
-```
+
 If you are confused by this jump to [my broken down guide :)](#easy-guide) for set up.
 
 ## Usage
